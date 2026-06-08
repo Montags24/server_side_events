@@ -39,7 +39,7 @@ docker compose up --build
 Services are exposed at:
 
 - Frontend: `http://127.0.0.1:5173`
-- Backend: `http://127.0.0.1:8001`
+- Backend: `http://127.0.0.1:8000`
 
 Redis is available to the backend on the internal Compose hostname `redis`.
 It is not published to the host, which avoids conflicts with a local Redis
